@@ -1,0 +1,57 @@
+name: langapp
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Firebase core
+  firebase_core: ^3.6.0
+
+  # Firebase authentication
+  firebase_auth: ^5.3.1
+
+  # Cloud Firestore
+  cloud_firestore: ^5.4.4
+
+  flip_card: ^0.7.0  
+  flutter_dotenv: ^6.0.0
+  file_picker: ^8.0.0
+  pdf_text: ^0.5.0
+  http: ^0.13.6
+  google_generative_ai: ^0.4.3
+  shimmer: ^3.0.0
+  shared_preferences: ^2.3.2
+  intl: ^0.19.0 
+  google_fonts: ^6.2.1
+  provider: ^6.1.2
+  # 💡 For animations and blur effects (used in the card UI)
+
+  animations: ^2.0.11
+
+  # 🎨 Font Awesome icons
+  font_awesome_flutter: ^10.7.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Add your assets here
+  assets:
+    - .env
+
+dependency_overrides:
+  http: ^1.1.0
